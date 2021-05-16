@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fabulous Garden</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Fabulous Garden</h1>
+    </header>
+    <main>
+        <section>
+            <form action="" id="gardenForm">
+                <fieldset>
+                    <legend>New Flower</legend>
+
+                    <label for="flowers name">Name</label>
+                    <br>
+                    <input type="text" id="flowerName" required>
+                    <br>
+                    <label for="cat">Image</label>
+                    <br>
+                    <select name="" id="cat" required>
+                        <option value="Alstroemerias">Alstroemerias</option>
+                        <option value="Gardenias">Gardenias</option>
+                        <option value="Orchids">Orchids</option>
+                        <option value="Roses">Roses</option>
+                        <option value="Sunflowers">Sunflowers</option>
+                        <option value="Tulips">Tulips</option>
+                        <option value="Peonies">Peonies</option>
+                    </select>
+                    <br>
+                    <label for="flower season">Season</label><br>
+                    <input type="text" id="flowerSeason" required><br>
+                    <input type="button" value="SAVE" id="save">
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <div id="renderContent"></div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
